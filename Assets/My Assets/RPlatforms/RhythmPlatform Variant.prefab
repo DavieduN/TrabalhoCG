@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7702158129998304761
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 160260, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_Name
+      value: RhythmPlatform Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.87544787
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.641962
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1393319
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.294
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7677
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -31.373
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000000218557
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 476412, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390562, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 97f71659473bf6b448c6a2a78d976d36, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 160260, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1328846416618239653}
+  m_SourcePrefab: {fileID: 100100000, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+--- !u!1 &7702158129998194685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 160260, guid: 3661921f39a555647a4b9afe69696a2c, type: 3}
+  m_PrefabInstance: {fileID: 7702158129998304761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1328846416618239653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7702158129998194685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16fccd54a300a7149b1e8e374171a9a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RhythmicPlatform
+  segmentosAtivos: 0101010100000000y
+  materialSolido: {fileID: 2100000, guid: 97f71659473bf6b448c6a2a78d976d36, type: 2}
+  materialFantasma: {fileID: 2100000, guid: 7ace4c74cabe7bd418c0bd1d304df7a9, type: 2}
